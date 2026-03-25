@@ -8,9 +8,7 @@
 		"proj3"
 	],
 	"scripts": {
-		"start:1": "npm dev --workspace=proj1",
-		"start:2": "npm dev --workspace=proj2",
-		"start:3": "npm dev --workspace=proj3"
+		"build:api": "bash ./build-api.sh"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.9",
