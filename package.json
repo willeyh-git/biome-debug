@@ -1,19 +1,21 @@
 {
-  "version": "1.0.0",
-  "author": "Willy",
-  "description": "Biome cpu debugging",
-  "workspaces": [
-    "proj1",
-    "proj2",
-    "proj3"
-  ],
-  "scripts": {
-    "start:1": "npm dev --workspace=proj1",
-    "start:2": "npm dev --workspace=proj2",
-    "start:3": "npm dev --workspace=proj3"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.4.9",
-    "typescript": "5.9.3"
-  }
+	"version": "1.0.0",
+	"author": "Willy",
+	"description": "Biome cpu debugging",
+	"workspaces": [
+		"proj1",
+		"proj2",
+		"proj3"
+	],
+	"scripts": {
+		"start:1": "npm dev --workspace=proj1",
+		"start:2": "npm dev --workspace=proj2",
+		"start:3": "npm dev --workspace=proj3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.9",
+		"typescript": "5.9.3",
+		"nswag": "14.6.2",
+		"axios": "1.11.0"
+	}
 }
