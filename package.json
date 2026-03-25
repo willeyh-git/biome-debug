@@ -1,19 +1,14 @@
 {
-	"version": "1.0.0",
-	"author": "Willy",
-	"description": "Biome cpu debugging",
-	"workspaces": [
-		"proj1",
-		"proj2",
-		"proj3"
-	],
-	"scripts": {
-		"build:api": "bash ./build-api.sh"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.4.9",
-		"typescript": "5.9.3",
-		"nswag": "14.6.2",
-		"axios": "1.11.0"
-	}
+  "version": "1.0.0",
+  "author": "Willy",
+  "description": "Biome cpu debugging",
+  "scripts": {
+    "build:api": "bash ./build-api.sh"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.9",
+    "typescript": "5.9.3",
+    "nswag": "14.6.2",
+    "axios": "1.11.0"
+  }
 }
